@@ -1,0 +1,8 @@
+nome del ristorante:
+chef:
+tipo menu:
+antipasti:mario
+1piatti:gino
+2piatti:vincent
+dessert:francesca
+bibite:ardit
