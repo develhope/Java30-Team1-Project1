@@ -4,5 +4,13 @@ tipo menu:
 antipasti:mario
 1piatti:gino
 2piatti:vincent
+Arrosto di Pollo alla Birra                                     12
+(Pollo marinato con birra bavarese servita con insalata )
+Misto sulla Griglia                                             15
+(Bracciola di maiale, salciccia e 3 arrosticini )
+Orata                                                           17
+(cotta in padella e patate al forno)
+Bistecca Vegana                                                 17
+(Servita su una base di hommous)
 dessert:francesca
 bibite:ardit
