@@ -1,28 +1,35 @@
 nome del ristorante:
+
 chef:
+
 tipo menu:
+
 antipasti:mario
+Crostini con pâté di fegato
+Involtini di bresaola con rucola e scaglie di parmigiano
+Sformato di carne con fonduta
+Salumi misti con formaggi stagionati
+Carpaccio di manzo con rucola e limone
+
 1piatti:gino
-Mezzani di Gragnano con sugo alla Genovese                      10
+Mezzani di Gragnano con sugo alla Genovese
 (pasta con ragù di cipolle alla Napoletana)
 
-Manfredi con Ragù e ricotta                                     12
+Manfredi con Ragù e ricotta
 (ragù alla napoletana con ricotta di Bufala)
 
-Pasta e Patate con Provola                                      8
+Pasta e Patate con Provola
 (pasta mista con patate, pancetta e provola)
 
-Vermicellone alle Vongole locali                                18
+Vermicellone alle Vongole locali
 
 
 2piatti:vincent
-Arrosto di Pollo alla Birra                                     12
+Arrosto di Pollo alla Birra
 (Pollo marinato con birra bavarese servita con insalata )
-Misto sulla Griglia                                             15
+Misto sulla Griglia
 (Bracciola di maiale, salciccia e 3 arrosticini )
-Orata                                                           17
+Orata
 (cotta in padella e patate al forno)
-Bistecca Vegana                                                 17
+Bistecca Vegana
 (Servita su una base di hommous)
-dessert:francesca
-bibite:ardit
