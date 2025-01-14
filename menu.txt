@@ -1,8 +1,8 @@
-nome del ristorante:
+nome del ristorante:Il ristorante del gatto scemo!
 
-chef:
+chef:Gino
 
-tipo menu:
+tipo menu:carne
 
 antipasti:mario
 Crostini con pâté di fegato
