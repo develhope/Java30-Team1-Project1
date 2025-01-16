@@ -1,0 +1,44 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\n    public static void main(String [] args){\n        System.out.println(\"Progetto ristorante Java-30 Develhope\");\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 72a7cb7ccba54e1d54d4d8b2da05f9470374ad5b)
++++ b/src/Main.java	(date 1736872752795)
+@@ -1,5 +1,7 @@
+ public class Main {
+     public static void main(String [] args){
+-        System.out.println("Progetto ristorante Java-30 Develhope");
++        Secondi_piatti secondiPiatti = new Secondi_piatti();
++        Secondi_piatti secondiPiatti = ("Arrosto di pollo alla birra",)
++                System.out.println("Progetto ristorante Java-30 Develhope");
+     }
+ }
+Index: src/Secondi_piatti.java
+===================================================================
+diff --git a/src/Secondi_piatti.java b/src/Secondi_piatti.java
+new file mode 100644
+--- /dev/null	(date 1736872752788)
++++ b/src/Secondi_piatti.java	(date 1736872752788)
+@@ -0,0 +1,17 @@
++
++
++public class Secondi_piatti {
++    String nome;
++    String descrizione;
++    double prezzo;
++/*^^
++    Secondi_piatti secondipiatti = new Secondi_piatti[];
++    Secondi_piatti [] = new Secondi_piatti[4]
++    Secondi_piatti [0] = {"Arrosto di pollo alla Birra",15.99};
++    Secondi_piatti [0] = {"Misto sulla Griglia",15.99};
++    Secondi_piatti [0] = {"Orata",15.99};
++    Secondi_piatti [0] = {"Arrosto di pollo alla Birra",15.99};
++
++
++ */
++}
+\ No newline at end of file
