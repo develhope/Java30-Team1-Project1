@@ -1,0 +1,22 @@
+Index: src/SecondiPiatti.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class SecondiPiatti {\r\n    private String nome;\r\n    private String descrizione;\r\n    private double prezzo;\r\n\r\n    public SecondiPiatti(String nome, String descrizione, double prezzo) {\r\n        this.nome = nome;\r\n        this.descrizione = descrizione;\r\n        this.prezzo = prezzo;\r\n    }\r\n\r\n    public String getNome() {\r\n        return nome;\r\n    }\r\n\r\n    public void setNome(String nome) {\r\n        this.nome = nome;\r\n    }\r\n\r\n    public String getDescrizione() {\r\n        return descrizione;\r\n    }\r\n\r\n    public void setDescrizione(String descrizione) {\r\n        this.descrizione = descrizione;\r\n    }\r\n\r\n    public double getPrezzo() {\r\n        return prezzo;\r\n    }\r\n\r\n    public void setPrezzo(double prezzo) {\r\n        this.prezzo = prezzo;\r\n    }\r\n\r\n    void stampaInfo(){\r\n\r\n            System.out.println(\" ~ \"+nome+\"che sarebbe \"+descrizione+\" al prezzo di \"+prezzo);\r\n        }\r\n    }\r\n\r\n
+===================================================================
+diff --git a/src/SecondiPiatti.java b/src/SecondiPiatti.java
+--- a/src/SecondiPiatti.java	(revision 3d262fa043b9bd2319c6d0436186f4ec7aa6953b)
++++ b/src/SecondiPiatti.java	(date 1736929475216)
+@@ -33,9 +33,9 @@
+         this.prezzo = prezzo;
+     }
+ 
+-    void stampaInfo(){
++    void stampaInfo() {
+ 
+-            System.out.println(" ~ "+nome+"che sarebbe "+descrizione+" al prezzo di "+prezzo);
+-        }
+-    }
++        System.out.println(" ~ " + nome + "che sarebbe " + descrizione + " al prezzo di " + prezzo);
++    }
++}
+ 
