@@ -1,14 +1,22 @@
-public class Antipasti {
-    private String nome;
-    private Double prezzo;
+public class Antipasti extends Piatti{
+    private String tipo;
 
-    //TODO creare il costruttore, fare getter e setter ed un metodo per stampare le informazioni (nome e prezzo)
-    public Antipasti(String nome, Double prezzo){
-        this.nome = nome;
-        this.prezzo = prezzo;
+    public Antipasti(String nome, String descrizione, Double prezzo, String tipo){
+        super(nome, descrizione, prezzo);
+        this.tipo = tipo;
     }
 
-    public void stampaInfo(){
-        System.out.println("Piatto:"+nome+ " / "+ "Prezzo:"+prezzo+"€");
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    @Override
+    public void stampaInfo() {
+        setNome(this.getNome()+" ("+tipo+")");
+        super.stampaInfo();
     }
 }

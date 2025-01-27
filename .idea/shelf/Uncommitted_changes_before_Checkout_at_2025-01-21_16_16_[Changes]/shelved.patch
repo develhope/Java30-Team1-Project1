@@ -1,0 +1,17 @@
+Index: src/Antipasti.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Antipasti {\n    private String nome;\n    private Double prezzo;\n\n    //TODO creare il costruttore, fare getter e setter ed un metodo per stampare le informazioni (nome e prezzo)\n    public Antipasti(String nome, Double prezzo){\n        this.nome = nome;\n        this.prezzo = prezzo;\n    }\n\n    public void stampaInfo(){\n        System.out.println(\"Piatto:\"+nome+ \" / \"+ \"Prezzo:\"+prezzo+\"€\");\n    }\n}
+===================================================================
+diff --git a/src/Antipasti.java b/src/Antipasti.java
+--- a/src/Antipasti.java	(revision d37e0942ad8817d1613104ca1dd0183dc80b09f8)
++++ b/src/Antipasti.java	(date 1737472595852)
+@@ -2,7 +2,7 @@
+     private String nome;
+     private Double prezzo;
+ 
+-    //TODO creare il costruttore, fare getter e setter ed un metodo per stampare le informazioni (nome e prezzo)
++
+     public Antipasti(String nome, Double prezzo){
+         this.nome = nome;
+         this.prezzo = prezzo;
