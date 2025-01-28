@@ -1,41 +1,24 @@
-public class SecondiPiatti {
-    private String nome;
-    private String descrizione;
-    private double prezzo;
+public class SecondiPiatti extends Piatti{
 
-    public SecondiPiatti(String nome, String descrizione, double prezzo) {
-        this.nome = nome;
-        this.descrizione = descrizione;
-        this.prezzo = prezzo;
+    private String cotturaCarne;
+
+
+    public SecondiPiatti(String nome, String descrizione, Double prezzo, String cotturaCarne) {
+        super(nome, descrizione, prezzo);
+        this.cotturaCarne = cotturaCarne;
     }
 
-    public String getNome() {
-        return nome;
+    public String getCotturaCarne() {
+        return cotturaCarne;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setTipo(String tipo) {
+        this.cotturaCarne = cotturaCarne;
     }
 
-    public String getDescrizione() {
-        return descrizione;
+    @Override
+    public void stampaInfo() {
+        setNome(this.getNome()+" ("+cotturaCarne+")");
+        super.stampaInfo();
     }
-
-    public void setDescrizione(String descrizione) {
-        this.descrizione = descrizione;
-    }
-
-    public double getPrezzo() {
-        return prezzo;
-    }
-
-    public void setPrezzo(double prezzo) {
-        this.prezzo = prezzo;
-    }
-
-    void stampaInfo(){
-
-            System.out.println(" ~ "+nome+"che sarebbe "+descrizione+" al prezzo di "+prezzo);
-        }
-    }
-
+}
