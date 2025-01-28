@@ -6,10 +6,10 @@ public class Main {
         Antipasti salumi = new Antipasti("Salumi", "Misti con formaggi stagionati", 2.50, "Carne");
         Antipasti carpaccio = new Antipasti("Carpaccio", "Manzo con rucola e limone", 5.30, "Carne");
 
-        PrimiPiatti primo1 = new PrimiPiatti("Mezzani di Gragnano con sugo alla Genovese", "pasta con ragù di cipolle alla Napoletana", 8.50);
-        PrimiPiatti primo2 = new PrimiPiatti("Manfredi con Ragù e ricotta", "ragù alla napoletana con ricotta di Bufala)", 9.50);
-        PrimiPiatti primo3 = new PrimiPiatti("Pasta e Patate con Provola", "pasta mista con patate, pancetta e provola", 7.50);
-        PrimiPiatti primo4 = new PrimiPiatti("Vermicellone alle Vongole locali", "Vermicellone gragnano con Vongole veraci", 14.50);
+        PrimiPiatti primo1 = new PrimiPiatti("Mezzani di Gragnano con sugo alla Genovese", "pasta con ragù di cipolle alla Napoletana", 8.50, "cottura al dente");
+        PrimiPiatti primo2 = new PrimiPiatti("Manfredi con Ragù e ricotta", "ragù alla napoletana con ricotta di Bufala)", 9.50, "cottura al dente");
+        PrimiPiatti primo3 = new PrimiPiatti("Pasta e Patate con Provola", "pasta mista con patate, pancetta e provola", 7.50, "cottura al dente");
+        PrimiPiatti primo4 = new PrimiPiatti("Vermicellone alle Vongole locali", "Vermicellone gragnano con Vongole veraci", 14.50, "cottura al dente");
 
         SecondiPiatti secondiPiatti1 = new SecondiPiatti("Arrosto di pollo alla Birra", "Pollo marinato con birra bavarese servita con insalata", 17.99);
         SecondiPiatti secondiPiatti2 = new SecondiPiatti("Misto sulla Griglia", "Bracciola di maiale, salciccia e 3 arrosticini", 13.99);
@@ -27,10 +27,10 @@ public class Main {
 
         System.out.println("\nPrimi Piatti:\n");
 
-        primo1.stampaPrimi();
-        primo2.stampaPrimi();
-        primo3.stampaPrimi();
-        primo4.stampaPrimi();
+        primo1.stampaInfo();
+        primo2.stampaInfo();
+        primo3.stampaInfo();
+        primo4.stampaInfo();
 
         System.out.println("\nSecondo Piatti:\n");
 
