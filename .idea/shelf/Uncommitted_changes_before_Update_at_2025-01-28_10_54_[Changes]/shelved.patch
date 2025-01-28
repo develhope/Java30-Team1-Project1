@@ -1,0 +1,73 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"967f3cde-5c1e-4944-9ee3-2cdb675401ad\" name=\"Changes\" comment=\"release 21_01_25\">\n      <change afterPath=\"$PROJECT_DIR$/src/Piatti.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_01_2025_09_24_[Changes]1/shelved.patch\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_01_2025_09_24__Changes_1.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Antipasti.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Antipasti.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;santogino&quot;\n  }\n}</component>\n  <component name=\"GitHubPullRequestState\">{\n  &quot;prStates&quot;: [\n    {\n      &quot;id&quot;: {\n        &quot;id&quot;: &quot;PR_kwDONboWMs6ICFvy&quot;,\n        &quot;number&quot;: 2\n      },\n      &quot;lastSeen&quot;: 1737044840614\n    }\n  ]\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/develhope-java30/progetto-ristorante-java30.git&quot;,\n    &quot;accountId&quot;: &quot;efc6df1c-626a-434d-a4f2-96e3b17e0b05&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 1\n}</component>\n  <component name=\"ProjectId\" id=\"2repNvQKfCCVFTw5vNYzfR9KGX7\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Application.Main.executor&quot;: &quot;Run&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"967f3cde-5c1e-4944-9ee3-2cdb675401ad\" name=\"Changes\" comment=\"\" />\n      <created>1736929362826</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1736929362826</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"release 21_01_25\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1737472792839</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1737472792839</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"develop_test\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"dev test integration plus second plates\" />\n    <MESSAGE value=\"merge of antipasti feature and develop_test\" />\n    <MESSAGE value=\"release\" />\n    <MESSAGE value=\"release 21_01_25\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"release 21_01_25\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 05112cced209e353f63af743a51a9411c844604d)
++++ b/.idea/workspace.xml	(date 1737990997208)
+@@ -4,13 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="release 21_01_25">
+-      <change afterPath="$PROJECT_DIR$/src/Piatti.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_01_2025_09_24_[Changes]1/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_01_2025_09_24__Changes_1.xml" beforeDir="false" />
++    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="Added parent class with new &quot;Tipo&quot; on Antipasti.">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Antipasti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Antipasti.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -92,7 +87,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1737472792839</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Added parent class with new &quot;Tipo&quot; on Antipasti.">
++      <option name="closed" value="true" />
++      <created>1737990267396</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1737990267396</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -100,19 +103,7 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State>
+-              <option name="FILTERS">
+-                <map>
+-                  <entry key="branch">
+-                    <value>
+-                      <list>
+-                        <option value="develop_test" />
+-                      </list>
+-                    </value>
+-                  </entry>
+-                </map>
+-              </option>
+-            </State>
++            <State />
+           </value>
+         </entry>
+       </map>
+@@ -123,6 +114,7 @@
+     <MESSAGE value="merge of antipasti feature and develop_test" />
+     <MESSAGE value="release" />
+     <MESSAGE value="release 21_01_25" />
+-    <option name="LAST_COMMIT_MESSAGE" value="release 21_01_25" />
++    <MESSAGE value="Added parent class with new &quot;Tipo&quot; on Antipasti." />
++    <option name="LAST_COMMIT_MESSAGE" value="Added parent class with new &quot;Tipo&quot; on Antipasti." />
+   </component>
+ </project>
+\ No newline at end of file

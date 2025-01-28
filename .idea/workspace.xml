@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="dev test integration plus second plates" />
+    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="release 21_01_25">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondiPiatti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondiPiatti.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop_test" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,23 +34,23 @@
     &quot;assignee&quot;: &quot;santogino&quot;
   }
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDONboWMs6ICFvy",
-        "number": 2
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONboWMs6ICFvy&quot;,
+        &quot;number&quot;: 2
       },
-      "lastSeen": 1737044840614
+      &quot;lastSeen&quot;: 1737044840614
     }
   ]
-}]]></component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/develhope-java30/progetto-ristorante-java30.git&quot;,
-    &quot;accountId&quot;: &quot;cc5ca518-a2c7-4408-8a3f-a3bc9b623a05&quot;
-  }
 }</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/develhope-java30/progetto-ristorante-java30.git",
+    "accountId": "0dd9c6c2-c4e7-45f4-aa39-86ea4484c971"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -59,15 +62,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop__Test1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,6 +80,15 @@
       <option name="presentableId" value="Default" />
       <updated>1736929362826</updated>
     </task>
+    <task id="LOCAL-00001" summary="release 21_01_25">
+      <option name="closed" value="true" />
+      <created>1737472792839</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737472792839</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,7 +102,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="develop_test" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
@@ -104,6 +116,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dev test integration plus second plates" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev test integration plus second plates" />
+    <MESSAGE value="merge of antipasti feature and develop_test" />
+    <MESSAGE value="release" />
+    <MESSAGE value="release 21_01_25" />
+    <option name="LAST_COMMIT_MESSAGE" value="release 21_01_25" />
   </component>
 </project>

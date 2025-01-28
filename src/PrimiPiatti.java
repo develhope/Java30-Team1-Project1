@@ -1,39 +1,27 @@
-public class PrimiPiatti {
-    private String nome;
-    private String descrizione;
-    private Double prezzo;
+public class PrimiPiatti extends Piatti {
 
-    public PrimiPiatti(String nome, String descrizione, Double prezzo) {
-        this.nome = nome;
-        this.descrizione = descrizione;
-        this.prezzo = prezzo;
+    private String cotturaPasta;
+
+    public PrimiPiatti(String nome, String descrizione, Double prezzo, String cotturaPasta) {
+        super(nome, descrizione, prezzo);
+        this.cotturaPasta = cotturaPasta;
     }
 
-    public String getNome() {
-        return nome;
+    public String getCotturaPasta() {
+        return cotturaPasta;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setCotturaPasta(String cotturaPasta) {
+        this.cotturaPasta = cotturaPasta;
     }
 
-    public String getDescrizione() {
-        return descrizione;
-    }
-
-    public void setDescrizione(String descrizione) {
-        this.descrizione = descrizione;
-    }
-
-    public Double getPrezzo() {
-        return prezzo;
-    }
-
-    public void setPrezzo(Double prezzo) {
-        this.prezzo = prezzo;
-    }
-
-    public void stampaPrimi(){
-        System.out.println(nome + " ( " + descrizione + " ) = " + prezzo + "€.");
+    @Override
+    public void stampaInfo() {
+        setNome(this.getNome()+" ("+cotturaPasta+")");
+        super.stampaInfo();
     }
 }
+
+
+
+
