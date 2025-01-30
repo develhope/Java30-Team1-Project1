@@ -33,6 +33,7 @@ public class Piatti {
         this.prezzo = prezzo;
     }
 
+    //TODO inserire un commento per la spiegazione del printf
     public void stampaInfo(){
         System.out.printf("%s %n~ %-75s %s€ %n", this.nome, this.descrizione, this.prezzo);
     }
