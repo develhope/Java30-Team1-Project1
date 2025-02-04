@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String [] args){
-
         System.out.println(RED_BOLD_BRIGHT + "Benvenuti al ristorante \"Gatto Scemo\"\n" + RESET);
-
 
         Menu menu = new Menu();
         //antipasti
