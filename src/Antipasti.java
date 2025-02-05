@@ -1,7 +1,7 @@
 public class Antipasti extends Piatti{
 
-    public Antipasti(String nome, String descrizione, Double prezzo, TipoEnum tipoCottura){
-        super(nome, descrizione, prezzo, tipoCottura);
+    public Antipasti(String nome, String descrizione, Double prezzo, TipoEnum tipoPiatto){
+        super(nome, descrizione, prezzo, tipoPiatto);
     }
 
     @Override

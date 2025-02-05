@@ -2,13 +2,13 @@ public class Piatti {
     private String nome;
     private String descrizione;
     private Double prezzo;
-    private TipoEnum tipoCottura;
+    private TipoEnum tipoPiatto;
 
-    public Piatti(String nome, String descrizione, Double prezzo, TipoEnum tipoCottura) {
+    public Piatti(String nome, String descrizione, Double prezzo, TipoEnum tipoPiatto) {
         this.nome = nome;
         this.descrizione = descrizione;
         this.prezzo = prezzo;
-        this.tipoCottura = tipoCottura;
+        this.tipoPiatto = tipoPiatto;
     }
 
     public String getNome() {
@@ -35,12 +35,12 @@ public class Piatti {
         this.prezzo = prezzo;
     }
 
-    public TipoEnum getTipoCottura() {
-        return tipoCottura;
+    public TipoEnum getTipoPiatto() {
+        return tipoPiatto;
     }
 
-    public void setTipoCottura(TipoEnum tipoCottura) {
-        this.tipoCottura = tipoCottura;
+    public void setTipoPiatto(TipoEnum tipoPiatto) {
+        this.tipoPiatto = tipoPiatto;
     }
 
     //con la % garantiamo la corretta gestione della nuova riga su qualsiasi sistema operativo
@@ -50,6 +50,6 @@ public class Piatti {
     //%s per definire il prossimo parametro ma con l'aggiunta dell'euro per il prezzo in questo caso this.prezzo
     //%n per andare a capo nel caso ci siano prossimi print, per non rovinare la formattazione
     public void stampaInfo(){
-        System.out.printf("%s %n~ %-75s %s€ %n", this.nome + " ("+this.tipoCottura+")", this.descrizione, this.prezzo);
+        System.out.printf("%s %n~ %-75s %s€ %n", this.nome + " ("+this.tipoPiatto +")", this.descrizione, this.prezzo);
     }
 }

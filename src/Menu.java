@@ -5,6 +5,7 @@ import java.util.List;
 public class Menu {
     private List<Piatti> menu;
 
+    //TODO aggiungere nome, tipo, descrizione
     public Menu() {
         this.menu = new ArrayList<>();
     }
@@ -13,15 +14,8 @@ public class Menu {
         menu.add(piatti);
     }
 
-    public void removePiatto(String name){
-        Iterator<Piatti> iterator = menu.iterator();
-
-        while(iterator.hasNext()){
-            Piatti piatti = iterator.next();
-            if(name.equals(piatti.getNome())){
-                iterator.remove();
-            }
-        }
+    public void removePiatto(Piatti piatti){
+        menu.remove(piatti);
     }
 
     public void stampaMenu(){
