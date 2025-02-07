@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String [] args){
-        System.out.println(RED_BOLD_BRIGHT + "Benvenuti al ristorante \"Gatto Scemo\"\n" + RESET);
-
-        Menu menu = new Menu();
+        Ristorante gattoScemo = new Ristorante("Gatto Scemo", "Gino Santonicola");
+        Menu menu = new Menu(TipoEnum.CARNE);
         //antipasti
         menu.addPiatto(new Antipasti("Crostini", "Con pâté di fegato e salsa BBQ", 1.80, TipoEnum.CARNE));
         menu.addPiatto(new Antipasti("Involtini", "Bresaola, rucola e scaglie di parmigiano", 2.10, TipoEnum.CARNE));
@@ -20,11 +19,8 @@ public class Main {
         menu.addPiatto(new SecondiPiatti("Orata", "cotta in padella e patate al forno", 17.99, TipoEnum.PESCE));
         menu.addPiatto(new SecondiPiatti("Bistecca Vegana", "Servita su una base di hommous", 25.01, TipoEnum.VEGETARIANO));
 
+        gattoScemo.stampaRistorante();
         menu.stampaMenu();
     }
-
-    public static final String RESET = "\033[0m";
-    public static final String RED_BOLD_BRIGHT = "\033[1;91m";// RED
-
 }
 

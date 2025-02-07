@@ -4,10 +4,12 @@ import java.util.List;
 
 public class Menu {
     private List<Piatti> menu;
+    private TipoEnum tipoMenu;
 
     //TODO aggiungere nome, tipo, descrizione
-    public Menu() {
+    public Menu(TipoEnum tipoMenu) {
         this.menu = new ArrayList<>();
+        this.tipoMenu = tipoMenu;
     }
 
     public void addPiatto(Piatti piatti){
@@ -19,6 +21,8 @@ public class Menu {
     }
 
     public void stampaMenu(){
+        System.out.println("Tipo menu: " + this.tipoMenu + "\n");
+
             System.out.println(GREEN_BOLD + "Antipasti:\n" + RESET);
             for(Piatti antipasti : menu){
                 if(antipasti instanceof Antipasti) {
