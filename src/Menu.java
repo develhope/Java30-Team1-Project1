@@ -7,7 +7,6 @@ public class Menu {
     private String nome;
     private String descrizione;
 
-    //TODO aggiungere nome, tipo, descrizione
     public Menu(TipoEnum tipoMenu, String nome, String descrizione) {
         this.menu = new ArrayList<>();
         this.tipoMenu = tipoMenu;
@@ -67,9 +66,4 @@ public class Menu {
                 }
             }
     }
-
-//    public static final String GREEN_BOLD = "\033[1;32m";  // GREEN
-//    public static final String YELLOW_BOLD = "\033[1;33m"; // YELLOW
-//   // public static final String PURPLE_BOLD = "\033[1;35m"; // PURPLE
-//    public static final String RESET = "\033[0m";
 }

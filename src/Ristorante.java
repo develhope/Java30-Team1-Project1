@@ -24,11 +24,8 @@ public class Ristorante {
     }
 
     public void stampaRistorante(){
-        System.out.println(RED_BOLD_BRIGHT + "Benvenuti al ristorante " + this.nome + RESET +
+        System.out.println(TipoColori.RED_BOLD_BRIGHT.colorize("Benvenuti al ristorante " + this.nome) +
                 "\nChef del ristorante: " + this.nomeChef + "\n"
         );
     }
-
-    public static final String RESET = "\033[0m";
-    public static final String RED_BOLD_BRIGHT = "\033[1;91m";// RED
 }
