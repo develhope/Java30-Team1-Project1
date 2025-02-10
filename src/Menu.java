@@ -5,11 +5,31 @@ import java.util.List;
 public class Menu {
     private List<Piatti> menu;
     private TipoEnum tipoMenu;
+    private String nome;
+    private String descrizione;
 
     //TODO aggiungere nome, tipo, descrizione
-    public Menu(TipoEnum tipoMenu) {
+    public Menu(TipoEnum tipoMenu, String nome, String descrizione) {
         this.menu = new ArrayList<>();
         this.tipoMenu = tipoMenu;
+        this.nome = nome;
+        this.descrizione = descrizione;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getDescrizione() {
+        return descrizione;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setDescrizione(String descrizione) {
+        this.descrizione = descrizione;
     }
 
     public void addPiatto(Piatti piatti){
