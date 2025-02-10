@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="Fix of bugs: RemovePiatto removed iterator. Renamed Enum in tipoPiatto">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-    </list>
+    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="Merge of develop-Fix-Gino into branch develop. Added name and description to Menu" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="develop-Fix-Gino" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +65,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop-Fix-Gino",
+    "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -113,7 +110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738771627336</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge of develop-Fix-Gino into branch develop. Added name and description to Menu">
+      <option name="closed" value="true" />
+      <created>1739198459626</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739198459626</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge of develop-Fix-Gino into branch develop. Added name and description to Menu">
+      <option name="closed" value="true" />
+      <created>1739198521477</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739198521477</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +162,7 @@
     <MESSAGE value="Merge branch 'develop' Release 28_01_25" />
     <MESSAGE value="Merge of GinoColour into develop + small fix" />
     <MESSAGE value="Fix of bugs: RemovePiatto removed iterator. Renamed Enum in tipoPiatto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix of bugs: RemovePiatto removed iterator. Renamed Enum in tipoPiatto" />
+    <MESSAGE value="Merge of develop-Fix-Gino into branch develop. Added name and description to Menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge of develop-Fix-Gino into branch develop. Added name and description to Menu" />
   </component>
 </project>

@@ -40,7 +40,10 @@ public class Menu {
     }
 
     public void stampaMenu(){
-        System.out.println("Tipo menu: " + this.tipoMenu + "\n");
+        System.out.println("Nome menu: " + this.nome +
+                "\nDescrizione menu: " + this.descrizione +
+                "\nTipo menu: " + this.tipoMenu + "\n"
+        );
 
             System.out.println(GREEN_BOLD + "Antipasti:\n" + RESET);
             for(Piatti antipasti : menu){
