@@ -19,8 +19,8 @@ public class Main {
         menu.addPiatto(new SecondiPiatti("Orata", "cotta in padella e patate al forno", 17.99, TipoEnum.PESCE));
         menu.addPiatto(new SecondiPiatti("Bistecca Vegana", "Servita su una base di hommous", 25.01, TipoEnum.VEGETARIANO));
 
+        gattoScemo.addMenu(menu);
         gattoScemo.stampaRistorante();
-        menu.stampaMenu();
     }
 }
 
