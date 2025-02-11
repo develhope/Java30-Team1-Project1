@@ -2,13 +2,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Menu {
-    private List<Piatti> menu;
+    private List<Piatti> piattiList;
     private TipoEnum tipoMenu;
     private String nome;
     private String descrizione;
 
+    //TODO sistemare l'ordine dei field
     public Menu(TipoEnum tipoMenu, String nome, String descrizione) {
-        this.menu = new ArrayList<>();
+        this.piattiList = new ArrayList<>();
         this.tipoMenu = tipoMenu;
         this.nome = nome;
         this.descrizione = descrizione;
@@ -32,13 +33,14 @@ public class Menu {
     }
 
     public void addPiatto(Piatti piatti){
-        menu.add(piatti);
+        piattiList.add(piatti);
     }
 
     public void removePiatto(Piatti piatti){
-        menu.remove(piatti);
+        piattiList.remove(piatti);
     }
 
+    //TODO Aggiungere field per la colorazione dei piatti
     public void stampaMenu(){
         System.out.println("Nome menu: " + this.nome +
                 "\nDescrizione menu: " + this.descrizione +
@@ -46,21 +48,21 @@ public class Menu {
         );
 
             System.out.println(TipoColori.GREEN_BOLD.colorize("Antipasti:\n"));
-            for(Piatti antipasti : menu){
+            for(Piatti antipasti : piattiList){
                 if(antipasti instanceof Antipasti) {
                     antipasti.stampaInfo();
                 }
             }
 
             System.out.println(TipoColori.YELLOW_BOLD.colorize("\nPrimi Piatti:\n"));
-            for(Piatti primi : menu){
+            for(Piatti primi : piattiList){
                 if(primi instanceof PrimiPiatti) {
                     primi.stampaInfo();
                 }
             }
 
             System.out.println(TipoColori.PURPLE_BOLD.colorize("\nSecondi Piatti:\n") );
-            for(Piatti secondi : menu){
+            for(Piatti secondi : piattiList){
                 if(secondi instanceof SecondiPiatti) {
                     secondi.stampaInfo();
                 }

@@ -10,12 +10,7 @@ public enum TipoColori {
         this.colore = colore;
     }
 
-    @Override
-    public String toString() {
-        return colore;
-    }
-
     public String colorize(String message) {
-        return this.colore + message + RESET;
+        return this.colore + message + RESET.colore;
     }
 }
