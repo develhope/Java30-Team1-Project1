@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String [] args){
         Ristorante gattoScemo = new Ristorante("Gatto Scemo", "Gino Santonicola");
-        Menu menu = new Menu(TipoEnum.CARNE, "Menù Carnivoro", "Piatti adatti a clienti Carnivori");
+        Menu menu = new Menu("Menù Carnivoro", "Piatti adatti a clienti Carnivori", TipoEnum.CARNE);
         //antipasti
         menu.addPiatto(new Antipasti("Crostini", "Con pâté di fegato e salsa BBQ", 1.80, TipoEnum.CARNE));
         menu.addPiatto(new Antipasti("Involtini", "Bresaola, rucola e scaglie di parmigiano", 2.10, TipoEnum.CARNE));

@@ -7,13 +7,11 @@ public class Menu {
     private String nome;
     private String descrizione;
 
-    //TODO sistemare l'ordine dei field
-    public Menu(TipoEnum tipoMenu, String nome, String descrizione) {
+    public Menu(String nome, String descrizione, TipoEnum tipoMenu) {
         this.piattiList = new ArrayList<>();
-        this.tipoMenu = tipoMenu;
         this.nome = nome;
         this.descrizione = descrizione;
-
+        this.tipoMenu = tipoMenu;
     }
 
     public String getNome() {

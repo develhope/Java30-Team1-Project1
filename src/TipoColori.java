@@ -10,6 +10,10 @@ public enum TipoColori {
         this.colore = colore;
     }
 
+    public String getColore() {
+        return colore;
+    }
+
     public String colorize(String message) {
         return this.colore + message + RESET.colore;
     }
