@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="Merge of develop_vin and cleaned code.">
+    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="Fix add nome e descrizione nella classe Menu">
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
@@ -19,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,7 +53,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/develhope-java30/progetto-ristorante-java30.git&quot;,
-    &quot;accountId&quot;: &quot;efc6df1c-626a-434d-a4f2-96e3b17e0b05&quot;
+    &quot;accountId&quot;: &quot;cc5ca518-a2c7-4408-8a3f-a3bc9b623a05&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -71,24 +72,11 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "GinoFix-Develop",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="progetto-ristorante-java30" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -130,31 +118,7 @@
       <option name="project" value="LOCAL" />
       <updated>1738771627336</updated>
     </task>
-    <task id="LOCAL-00005" summary="Merge of develop-Fix-Gino into branch develop. Added name and description to Menu">
-      <option name="closed" value="true" />
-      <created>1739198459626</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1739198459626</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Merge of develop-Fix-Gino into branch develop. Added name and description to Menu">
-      <option name="closed" value="true" />
-      <created>1739198521477</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1739198521477</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Merge of develop_vin and cleaned code.">
-      <option name="closed" value="true" />
-      <created>1739206486939</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1739206486939</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,8 +154,6 @@
     <MESSAGE value="Merge branch 'develop' Release 28_01_25" />
     <MESSAGE value="Merge of GinoColour into develop + small fix" />
     <MESSAGE value="Fix of bugs: RemovePiatto removed iterator. Renamed Enum in tipoPiatto" />
-    <MESSAGE value="Merge of develop-Fix-Gino into branch develop. Added name and description to Menu" />
-    <MESSAGE value="Merge of develop_vin and cleaned code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge of develop_vin and cleaned code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix of bugs: RemovePiatto removed iterator. Renamed Enum in tipoPiatto" />
   </component>
 </project>
