@@ -23,8 +23,4 @@ public enum TipoColori {
     public String toString() {
         return this.colore;
     }
-    
-    public String getColore() {
-        return this.colore;
-    }
 }

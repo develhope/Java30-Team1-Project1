@@ -38,7 +38,6 @@ public class Menu {
         piattiList.remove(piatti);
     }
 
-    //TODO Aggiungere field per la colorazione dei piatti
     public void stampaMenu(TipoColori coloreAntipasti, TipoColori colorePrimi, TipoColori coloreSecondi){
         System.out.println("Nome menu: " + this.nome +
                 "\nDescrizione menu: " + this.descrizione +
