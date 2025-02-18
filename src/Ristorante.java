@@ -37,11 +37,11 @@ public class Ristorante {
     }
 
     public void stampaRistorante(){
-        System.out.println(TipoColori.RED_BOLD_BRIGHT.colorize("Benvenuti al ristorante " + this.nome) +
+        System.out.println(TipoColori.RED.colorize("Benvenuti al ristorante " + this.nome) +
                 "\nChef del ristorante: " + this.nomeChef + "\n");
 
         for(Menu menu : menuList){
-            menu.stampaMenu();
+            menu.stampaMenu(TipoColori.BLUE, TipoColori.GREEN, TipoColori.YELLOW);
         }
     }
 }
