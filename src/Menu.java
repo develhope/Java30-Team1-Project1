@@ -22,6 +22,10 @@ public class Menu {
         return descrizione;
     }
 
+    public TipoEnum getTipoMenu() {
+        return tipoMenu;
+    }
+
     public void setNome(String nome) {
         this.nome = nome;
     }

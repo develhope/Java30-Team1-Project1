@@ -45,5 +45,11 @@ public class Ristorante {
         }
     }
 
-    //TODO inserire un metodo che in base al TipoEnum ci restituisce il menu di quel tipo
+    public void stampaMenuTipo(TipoEnum tipo){
+        for(Menu menu : menuList){
+            if(menu.getTipoMenu().equals(tipo)){
+                menu.stampaMenu(TipoColori.BLUE, TipoColori.GREEN, TipoColori.YELLOW);
+            }
+        }
+    }
 }
