@@ -18,10 +18,12 @@ public class Main {
         menu.addPiatto(new SecondiPiatti("Misto sulla Griglia", "Braciola di maiale, salciccia e 3 arrosticini", 13.99, TipoDieta.CARNE));
         menu.addPiatto(new SecondiPiatti("Orata", "cotta in padella e patate al forno", 17.99, TipoDieta.PESCE));
         menu.addPiatto(new SecondiPiatti("Bistecca Vegana", "Servita su una base di hommous", 25.01, TipoDieta.VEGETARIANO));
+        Clienti clin1 = new Clienti("marco","polo","Latina","2025-02-20",TipoDieta.CARNE);
 
 
         gattoScemo.addMenu(menu);
         gattoScemo.stampaRistorante();
+        System.out.println(clin1);
 
         // bisogna inserire un integer per numeromassimoprenotazioni, e quindi controllare che non sia già pieno
         //oggetto prenotazione = new Prenotazione(data, numero persone, tipo)

@@ -43,12 +43,15 @@ public class Piatti {
         this.tipoPiatto = tipoPiatto;
     }
 
-    //con la % garantiamo la corretta gestione della nuova riga su qualsiasi sistema operativo
-    //%s per definire il prossimo parametro, in questo caso this.nome (s, prossimo parametro)
-    //%n~ aggiungiamo questo parametro per andare a capo dopo il this.nome e dopo il this.tipoCottura
-    //%-75s forziamo il print a stampare verso sinistra con un bordo di 75, (s, prossimo parametro) in questo caso this.descrizione
-    //%s per definire il prossimo parametro ma con l'aggiunta dell'euro per il prezzo in questo caso this.prezzo
-    //%n per andare a capo nel caso ci siano prossimi print, per non rovinare la formattazione
+    /**
+    *Con la % garantiamo la corretta gestione della nuova riga su qualsiasi sistema operativo
+    *%s per definire il prossimo parametro, in questo caso this.nome (s, prossimo parametro)
+    *%n~ aggiungiamo questo parametro per andare a capo dopo il this.nome e dopo il this.tipoCottura
+    *%-75s forziamo il print a stampare verso sinistra con un bordo di 75, (s, prossimo parametro) in questo caso this.descrizione
+    *%s per definire il prossimo parametro ma con l'aggiunta dell'euro per il prezzo in questo caso this.prezzo
+    *%n per andare a capo nel caso ci siano prossimi print, per non rovinare la formattazione
+    **/
+
     public void stampaInfo(){
         System.out.printf("%s %n~ %-75s %s€ %n", this.nome + " ("+this.tipoPiatto +")", this.descrizione, this.prezzo);
     }
