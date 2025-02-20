@@ -50,6 +50,6 @@ public class Clienti {
                 "nome :" + nome +
                 ", cognome : " + cognome +
                 ", citta : " + citta +
-                ", data di ascita : " + dataDiNascita;
+                ", data di Nascita : " + dataDiNascita;
     }
 }
