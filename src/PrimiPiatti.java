@@ -1,6 +1,6 @@
 public class PrimiPiatti extends Piatti { ;
 
-    public PrimiPiatti(String nome, String descrizione, Double prezzo, TipoEnum tipoPiatto) {
+    public PrimiPiatti(String nome, String descrizione, Double prezzo, TipoDieta tipoPiatto) {
         super(nome, descrizione, prezzo, tipoPiatto);
     }
 

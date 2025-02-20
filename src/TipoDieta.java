@@ -1,4 +1,4 @@
-public enum TipoEnum {
+public enum TipoDieta {
     CARNE,
     PESCE,
     VEGETARIANO

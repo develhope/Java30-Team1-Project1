@@ -15,6 +15,11 @@ public enum TipoColori {
         return colore;
     }
 
+    /**
+     * questo metodo implementa una stile di testo e la colorazione
+     * @param message prende il testo
+     * @return e lo ritorna formattato
+     */
     public String colorize(String message) {
         return this.colore + message + RESET.colore;
     }

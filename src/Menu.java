@@ -3,11 +3,11 @@ import java.util.List;
 
 public class Menu {
     private List<Piatti> piattiList;
-    private TipoEnum tipoMenu;
+    private TipoDieta tipoMenu;
     private String nome;
     private String descrizione;
 
-    public Menu(String nome, String descrizione, TipoEnum tipoMenu) {
+    public Menu(String nome, String descrizione, TipoDieta tipoMenu) {
         this.piattiList = new ArrayList<>();
         this.nome = nome;
         this.descrizione = descrizione;
@@ -22,7 +22,7 @@ public class Menu {
         return descrizione;
     }
 
-    public TipoEnum getTipoMenu() {
+    public TipoDieta getTipoMenu() {
         return tipoMenu;
     }
 

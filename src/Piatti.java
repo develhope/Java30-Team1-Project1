@@ -2,9 +2,9 @@ public class Piatti {
     private String nome;
     private String descrizione;
     private Double prezzo;
-    private TipoEnum tipoPiatto;
+    private TipoDieta tipoPiatto;
 
-    public Piatti(String nome, String descrizione, Double prezzo, TipoEnum tipoPiatto) {
+    public Piatti(String nome, String descrizione, Double prezzo, TipoDieta tipoPiatto) {
         this.nome = nome;
         this.descrizione = descrizione;
         this.prezzo = prezzo;
@@ -35,11 +35,11 @@ public class Piatti {
         this.prezzo = prezzo;
     }
 
-    public TipoEnum getTipoPiatto() {
+    public TipoDieta getTipoPiatto() {
         return tipoPiatto;
     }
 
-    public void setTipoPiatto(TipoEnum tipoPiatto) {
+    public void setTipoPiatto(TipoDieta tipoPiatto) {
         this.tipoPiatto = tipoPiatto;
     }
 
