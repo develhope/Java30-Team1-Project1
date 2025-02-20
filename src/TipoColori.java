@@ -18,9 +18,4 @@ public enum TipoColori {
     public String colorize(String message) {
         return this.colore + message + RESET.colore;
     }
-
-    @Override
-    public String toString() {
-        return this.colore;
-    }
 }

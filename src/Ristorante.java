@@ -44,4 +44,6 @@ public class Ristorante {
             menu.stampaMenu(TipoColori.BLUE, TipoColori.GREEN, TipoColori.YELLOW);
         }
     }
+
+    //TODO inserire un metodo che in base al TipoEnum ci restituisce il menu di quel tipo
 }

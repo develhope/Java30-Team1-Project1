@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="fix Field colori, fix add color BLUE">
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="Merge of ginoFix-develop and small fixes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ristorante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ristorante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TipoColori.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TipoColori.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -150,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739206486939</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge of ginoFix-develop and small fixes">
+      <option name="closed" value="true" />
+      <created>1739885454749</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739885454749</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +200,7 @@
     <MESSAGE value="Fix of bugs: RemovePiatto removed iterator. Renamed Enum in tipoPiatto" />
     <MESSAGE value="Merge of develop-Fix-Gino into branch develop. Added name and description to Menu" />
     <MESSAGE value="Merge of develop_vin and cleaned code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge of develop_vin and cleaned code." />
+    <MESSAGE value="Merge of ginoFix-develop and small fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge of ginoFix-develop and small fixes" />
   </component>
 </project>

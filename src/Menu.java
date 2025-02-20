@@ -44,21 +44,21 @@ public class Menu {
                 "\nTipo menu: " + this.tipoMenu + "\n"
         );
 
-            System.out.println(coloreAntipasti + "Antipasti:\n" + TipoColori.RESET);
+            System.out.println(coloreAntipasti.getColore() + "Antipasti:\n" + TipoColori.RESET.getColore());
             for(Piatti antipasti : piattiList){
                 if(antipasti instanceof Antipasti) {
                     antipasti.stampaInfo();
                 }
             }
 
-            System.out.println(colorePrimi + "\nPrimi Piatti:\n" + TipoColori.RESET);
+            System.out.println(colorePrimi.getColore() + "\nPrimi Piatti:\n" + TipoColori.RESET.getColore());
             for(Piatti primi : piattiList){
                 if(primi instanceof PrimiPiatti) {
                     primi.stampaInfo();
                 }
             }
 
-            System.out.println(coloreSecondi + "\nSecondi Piatti:\n" + TipoColori.RESET);
+            System.out.println(coloreSecondi.getColore() + "\nSecondi Piatti:\n" + TipoColori.RESET.getColore());
             for(Piatti secondi : piattiList){
                 if(secondi instanceof SecondiPiatti) {
                     secondi.stampaInfo();

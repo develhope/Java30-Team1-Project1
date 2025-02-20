@@ -24,9 +24,9 @@ public class Main {
 
         // bisogna inserire un integer per numeromassimoprenotazioni, e quindi controllare che non sia già pieno
         //oggetto prenotazione = new Prenotazione(data, numero persone, tipo)
-        ristoranate.prenota(cliente, prenotazione);  // lista di prenotazioni
-
-        ristorante.stampaPrenotazionie();
+//        gattoScemo.prenota(cliente, prenotazione);  // lista di prenotazioni
+//
+//        gattoScemo.stampaPrenotazioni();
     }
 }
 
