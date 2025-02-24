@@ -1,17 +1,17 @@
 import java.time.LocalDate;
 
 public class Prenotazione {
-    private Cliente cliente;
+    private Clienti cliente;
     private LocalDate data;
     private int numeroPersone;
 
-    public Prenotazione(Cliente cliente, LocalDate data, int numeroPersone) {
+    public Prenotazione(Clienti cliente, LocalDate data, int numeroPersone) {
         this.cliente = cliente;
         this.data = data;
         this.numeroPersone = numeroPersone;
     }
 
-    public Cliente getCliente() {
+    public Clienti getCliente() {
         return cliente;
     }
 
@@ -23,7 +23,7 @@ public class Prenotazione {
         return numeroPersone;
     }
 
-    public void setCliente(Cliente cliente) {
+    public void setCliente(Clienti cliente) {
         this.cliente = cliente;
     }
 

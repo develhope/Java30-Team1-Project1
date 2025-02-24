@@ -53,7 +53,7 @@ public class Ristorante {
         }
     }
 
-    public void prenota(Cliente cliente, Prenotazione prenotazione){
+    public void prenota(Clienti cliente, Prenotazione prenotazione){
        LocalDate data = prenotazione.getData();
        int postiRichiesti = prenotazione.getNumeroPersone();
 
