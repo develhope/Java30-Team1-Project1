@@ -1,6 +1,8 @@
+import java.time.LocalDate;
+
 public class Main {
     public static void main(String [] args){
-        Ristorante gattoScemo = new Ristorante((TipoColori.PURPLE.colorize("Gatto Scemo")), "Gino Santonicola");
+        Ristorante gattoScemo = new Ristorante((TipoColori.PURPLE.colorize("Gatto Scemo")), "Gino Santonicola", 50);
         Menu menu = new Menu("Menù Carnivoro", "Piatti adatti a clienti Carnivori", TipoEnum.CARNE);
         //antipasti
         menu.addPiatto(new Antipasti("Crostini", "Con pâté di fegato e salsa BBQ", 1.80, TipoEnum.CARNE));
@@ -22,11 +24,13 @@ public class Main {
         gattoScemo.addMenu(menu);
         gattoScemo.stampaRistorante();
 
-        // bisogna inserire un integer per numeromassimoprenotazioni, e quindi controllare che non sia già pieno
-        //oggetto prenotazione = new Prenotazione(data, numero persone, tipo)
-        ristoranate.prenota(cliente, prenotazione);  // lista di prenotazioni
+        Cliente cliente1 = new Cliente("Gino");
+        Prenotazione prenotazione1 = new Prenotazione(cliente1, LocalDate.of(2025, 2, 25), 15);
+        Prenotazione prenotazione2 = new Prenotazione(cliente1, LocalDate.of(2025, 2, 25), 40);
 
-        ristorante.stampaPrenotazionie();
+        gattoScemo.prenota(cliente1, prenotazione1);
+        gattoScemo.prenota(cliente1, prenotazione2);
+        gattoScemo.stampaPrenotazioni();
     }
 }
 
