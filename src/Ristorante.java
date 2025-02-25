@@ -70,6 +70,14 @@ public class Ristorante {
        }
     }
 
+    public void stampaMenuTipo(TipoDieta tipo){
+        for(Menu menu : menuList){
+            if(menu.getTipoMenu().equals(tipo)){
+                menu.stampaMenu(TipoColori.BLUE, TipoColori.GREEN, TipoColori.YELLOW);
+            }
+        }
+    }
+
     public void stampaPrenotazioni(){
         System.out.println("LISTA PRENOTAZIONI");
         for (Prenotazione prenotazione : prenotazioniList){
