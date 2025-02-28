@@ -2,10 +2,10 @@ import java.time.LocalDate;
 
 public class Prenotazione {
     private Clienti cliente;
-    private LocalDate data;
+    private String data;
     private int numeroPersone;
 
-    public Prenotazione(Clienti cliente, LocalDate data, int numeroPersone) {
+    public Prenotazione(Clienti cliente, String data, int numeroPersone) {
         this.cliente = cliente;
         this.data = data;
         this.numeroPersone = numeroPersone;
@@ -15,7 +15,7 @@ public class Prenotazione {
         return cliente;
     }
 
-    public LocalDate getData() {
+    public String getData() {
         return data;
     }
 
@@ -27,7 +27,7 @@ public class Prenotazione {
         this.cliente = cliente;
     }
 
-    public void setData(LocalDate data) {
+    public void setData(String data) {
         this.data = data;
     }
 

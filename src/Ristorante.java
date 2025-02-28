@@ -8,16 +8,15 @@ public class Ristorante {
     private String nome;
     private String nomeChef;
     private List<Menu> menuList;
-    Map<LocalDate, Integer> numeroPostiDisponibili;
-    List<Prenotazione> prenotazioniList;
+    private List<Prenotazione> prenotazioniList;
+    private Integer capienzaMassima;
 
-    public Ristorante(String nome, String nomeChef, int postiTotali){
+    public Ristorante(String nome, String nomeChef, Integer capienzaMassima){
         this.nome = nome;
         this.nomeChef = nomeChef;
         this.menuList = new ArrayList<>();
-        this.numeroPostiDisponibili = new HashMap<>();
-        this.numeroPostiDisponibili.put(LocalDate.now(), postiTotali);
         this.prenotazioniList = new ArrayList<>();
+        this.capienzaMassima = capienzaMassima;
     }
 
     public void addMenu(Menu menu){
@@ -44,6 +43,14 @@ public class Ristorante {
         this.nomeChef = nomeChef;
     }
 
+    public Integer getCapienzaMassima() {
+        return capienzaMassima;
+    }
+
+    public void setCapienzaMassima(Integer capienzaMassima) {
+        this.capienzaMassima = capienzaMassima;
+    }
+
     public void stampaRistorante(){
         System.out.println(TipoColori.RED.colorize("Benvenuti al ristorante " + this.nome) +
                 "\nChef del ristorante: " + this.nomeChef + "\n");
@@ -54,20 +61,16 @@ public class Ristorante {
     }
 
     public void prenota(Clienti cliente, Prenotazione prenotazione){
-       LocalDate data = prenotazione.getData();
-       int postiRichiesti = prenotazione.getNumeroPersone();
+        int capienzaAttuale = 0;
+        for (Prenotazione prenotazioni : prenotazioniList){
+            capienzaAttuale += prenotazioni.getNumeroPersone();
+        }
 
-       numeroPostiDisponibili.putIfAbsent(data, 50);
-
-       if (numeroPostiDisponibili.get(data) < postiRichiesti){
-           System.out.println("Mi dispiace, non ci sono posti per la data richiesta");
-       } else {
-           numeroPostiDisponibili.put(data, numeroPostiDisponibili.get(data) - postiRichiesti);
-           prenotazioniList.add(prenotazione);
-           System.out.println("Prenotazione effettuata per il cliente: " + prenotazione.getCliente().getNome()
-                                + "\nData: " + data
-                                + "\nPosti prenotati: " + postiRichiesti);
-       }
+        if (capienzaAttuale + prenotazione.getNumeroPersone() >= capienzaMassima){
+            System.out.println("Non ci sono Posti Disponibili, Mi dispiace!");
+            return;
+        }
+        prenotazioniList.add(prenotazione);
     }
 
     public void stampaMenuTipo(TipoDieta tipo){

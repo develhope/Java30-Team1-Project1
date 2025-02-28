@@ -22,11 +22,11 @@ public class Main {
         menu.addPiatto(new SecondiPiatti("Bistecca Vegana", "Servita su una base di hommous", 25.01, TipoDieta.VEGETARIANO));
 
         gattoScemo.addMenu(menu);
-        gattoScemo.stampaRistorante();
+       // gattoScemo.stampaRistorante();
 
         Clienti cliente1 = new Clienti("Gino", "Santonicola", "Napoli", "1988", TipoDieta.CARNE);
-        Prenotazione prenotazione1 = new Prenotazione(cliente1, LocalDate.of(2025, 2, 25), 15);
-        Prenotazione prenotazione2 = new Prenotazione(cliente1, LocalDate.of(2025, 2, 25), 40);
+        Prenotazione prenotazione1 = new Prenotazione(cliente1, "28-02-2025", 15);
+        Prenotazione prenotazione2 = new Prenotazione(cliente1, "28-02-2025", 40);
 
         gattoScemo.prenota(cliente1, prenotazione1);
         gattoScemo.prenota(cliente1, prenotazione2);
