@@ -1,5 +1,3 @@
-import java.time.LocalDate;
-
 public class Main {
     public static void main(String [] args){
         Ristorante gattoScemo = new Ristorante((TipoColori.PURPLE.colorize("Gatto Scemo")), "Gino Santonicola", 50);

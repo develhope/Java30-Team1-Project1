@@ -11,7 +11,7 @@ public class Ristorante {
     private List<Prenotazione> prenotazioniList;
     private Integer capienzaMassima;
 
-    public Ristorante(String nome, String nomeChef, Integer capienzaMassima){
+    public Ristorante(String nome, String nomeChef, Integer capienzaMassima) {
         this.nome = nome;
         this.nomeChef = nomeChef;
         this.menuList = new ArrayList<>();
@@ -19,11 +19,11 @@ public class Ristorante {
         this.capienzaMassima = capienzaMassima;
     }
 
-    public void addMenu(Menu menu){
+    public void addMenu(Menu menu) {
         menuList.add(menu);
     }
 
-    public void removeMenu(Menu menu){
+    public void removeMenu(Menu menu) {
         menuList.remove(menu);
     }
 
@@ -51,42 +51,47 @@ public class Ristorante {
         this.capienzaMassima = capienzaMassima;
     }
 
-    public void stampaRistorante(){
+    public void stampaRistorante() {
         System.out.println(TipoColori.RED.colorize("Benvenuti al ristorante " + this.nome) +
                 "\nChef del ristorante: " + this.nomeChef + "\n");
 
-        for(Menu menu : menuList){
+        for (Menu menu : menuList) {
             menu.stampaMenu(TipoColori.BLUE, TipoColori.GREEN, TipoColori.YELLOW);
         }
     }
 
-    public void prenota(Clienti cliente, Prenotazione prenotazione){
-        int capienzaAttuale = 0;
-        for (Prenotazione prenotazioni : prenotazioniList){
-            capienzaAttuale += prenotazioni.getNumeroPersone();
+    // TODO diversificare i colori per le due Liste.
+    public void prenota(Clienti cliente, Prenotazione prenotazione) {
+        //1- schiaccio il punsante prenota mi arrivano due oggetti : GinoCliente, PrenotazioneGino
+        //2- la lista delle prenotazioni deve aggiungere la prenotazione se c'è ancora posto
+        if (prenotazione.getNumeroPersone() >= capienzaMassima) {
+            System.out.println("PRENOTAZIONI NON ACCETTATE"
+                    + "\nNome cliente: " + prenotazione.getCliente().getNome()
+                    + "\nData prenotazione: " + prenotazione.getData()
+                    + "\nNumero persone prenotate: " + prenotazione.getNumeroPersone()
+                    + "\nNon ci sono Posti Disponibili, Mi dispiace!");
+        } else {
+            //qui modelliamo lo stato in base alla business logic
+            this.prenotazioniList.add(prenotazione);
+            this.capienzaMassima -= prenotazione.getNumeroPersone();
         }
 
-        if (capienzaAttuale + prenotazione.getNumeroPersone() >= capienzaMassima){
-            System.out.println("Non ci sono Posti Disponibili, Mi dispiace!");
-            return;
-        }
-        prenotazioniList.add(prenotazione);
     }
 
-    public void stampaMenuTipo(TipoDieta tipo){
-        for(Menu menu : menuList){
-            if(menu.getTipoMenu().equals(tipo)){
+    public void stampaMenuTipo(TipoDieta tipo) {
+        for (Menu menu : menuList) {
+            if (menu.getTipoMenu().equals(tipo)) {
                 menu.stampaMenu(TipoColori.BLUE, TipoColori.GREEN, TipoColori.YELLOW);
             }
         }
     }
 
-    public void stampaPrenotazioni(){
+    public void stampaPrenotazioni() {
         System.out.println("LISTA PRENOTAZIONI");
-        for (Prenotazione prenotazione : prenotazioniList){
+        for (Prenotazione prenotazione : prenotazioniList) {
             System.out.println("Nome cliente: " + prenotazione.getCliente().getNome()
-                                + "\nData prenotazione: " + prenotazione.getData()
-                                + "\nNumero persone prenotate: " + prenotazione.getNumeroPersone());
+                    + "\nData prenotazione: " + prenotazione.getData()
+                    + "\nNumero persone prenotate: " + prenotazione.getNumeroPersone());
         }
 
     }
