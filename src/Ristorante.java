@@ -65,11 +65,11 @@ public class Ristorante {
         //1- schiaccio il punsante prenota mi arrivano due oggetti : GinoCliente, PrenotazioneGino
         //2- la lista delle prenotazioni deve aggiungere la prenotazione se c'è ancora posto
         if (prenotazione.getNumeroPersone() >= capienzaMassima) {
-            System.out.println("PRENOTAZIONI NON ACCETTATE"
+            System.out.println(TipoColori.RED.colorize("PRENOTAZIONI NON ACCETTATE"
                     + "\nNome cliente: " + prenotazione.getCliente().getNome()
                     + "\nData prenotazione: " + prenotazione.getData()
                     + "\nNumero persone prenotate: " + prenotazione.getNumeroPersone()
-                    + "\nNon ci sono Posti Disponibili, Mi dispiace!");
+                    + "\nNon ci sono Posti Disponibili, Mi dispiace!"));
         } else {
             //qui modelliamo lo stato in base alla business logic
             this.prenotazioniList.add(prenotazione);
@@ -87,11 +87,11 @@ public class Ristorante {
     }
 
     public void stampaPrenotazioni() {
-        System.out.println("LISTA PRENOTAZIONI");
+        System.out.println(TipoColori.CYAN.colorize("LISTA PRENOTAZIONI"));
         for (Prenotazione prenotazione : prenotazioniList) {
-            System.out.println("Nome cliente: " + prenotazione.getCliente().getNome()
+            System.out.println(TipoColori.CYAN.colorize("Nome cliente: " + prenotazione.getCliente().getNome()
                     + "\nData prenotazione: " + prenotazione.getData()
-                    + "\nNumero persone prenotate: " + prenotazione.getNumeroPersone());
+                    + "\nNumero persone prenotate: " + prenotazione.getNumeroPersone()));
         }
 
     }
