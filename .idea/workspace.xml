@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="Fix metodo prenota">
+    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="Fix metodo prenota semplificato">
+      <change afterPath="$PROJECT_DIR$/mysql-connector-j-9.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SuperHero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ristorante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ristorante.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,16 +64,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.SuperHero.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/39333/Desktop/progetto-ristorante-java30/src",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\39333\Desktop\progetto-ristorante-java30\src" />
+      <recent name="C:\Users\39333\Desktop\progetto-ristorante-java30" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SuperHero">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="progetto-ristorante-java30" />
@@ -81,8 +92,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SuperHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SuperHero" />
+      <module name="progetto-ristorante-java30" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SuperHero" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
@@ -178,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740760586087</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fix metodo prenota semplificato">
+      <option name="closed" value="true" />
+      <created>1741187242308</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741187242308</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +246,18 @@
     <MESSAGE value="Fix Prenotazioni Clienti" />
     <MESSAGE value="code review 25/02 ripristianto metodo stampa menù per tipo" />
     <MESSAGE value="Fix metodo prenota" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix metodo prenota" />
+    <MESSAGE value="Fix metodo prenota semplificato" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix metodo prenota semplificato" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SuperHero.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
