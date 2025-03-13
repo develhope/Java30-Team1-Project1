@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="Fix metodo prenota">
+    <list default="true" id="967f3cde-5c1e-4944-9ee3-2cdb675401ad" name="Changes" comment="code review 25/02 ripristianto metodo stampa menù per tipo">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ristorante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ristorante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TipoColori.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TipoColori.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,15 +171,7 @@
       <option name="project" value="LOCAL" />
       <updated>1740496527560</updated>
     </task>
-    <task id="LOCAL-00010" summary="Fix metodo prenota">
-      <option name="closed" value="true" />
-      <created>1740760586087</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1740760586087</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +211,6 @@
     <MESSAGE value="Merge of develop_vin and cleaned code." />
     <MESSAGE value="Fix Prenotazioni Clienti" />
     <MESSAGE value="code review 25/02 ripristianto metodo stampa menù per tipo" />
-    <MESSAGE value="Fix metodo prenota" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix metodo prenota" />
+    <option name="LAST_COMMIT_MESSAGE" value="code review 25/02 ripristianto metodo stampa menù per tipo" />
   </component>
 </project>

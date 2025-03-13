@@ -4,6 +4,7 @@ public enum TipoColori {
     YELLOW("\033[1;33m"),
     RED("\033[1;91m"),
     PURPLE("\033[1;35m"),
+    CYAN("\033[1;96m"),
     BLUE("\033[1;34m");
 
     private final String colore;
